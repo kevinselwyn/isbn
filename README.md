@@ -1,8 +1,8 @@
-#isbn
+# isbn
 
 ISBN utility for validating, calculating check digits, adding/removing/fixing hyphens, and generating barcode images
 
-##Installation
+## Installation
 
 ```bash
 make && sudo make install
@@ -28,7 +28,7 @@ make cache_meta && sudo make install
 
 To change the cache directory, change the `isbn_cache` variable in `isbn.h`
 
-##Usage
+## Usage
 
 ```
 isbn [-c|--check] [-v|--validate] [-r|--remove] [-a|--add] [-f|--fix]
@@ -53,7 +53,7 @@ isbn [-c|--check] [-v|--validate] [-r|--remove] [-a|--add] [-f|--fix]
 | -e,--ean <filename> | Generates a barcode                                                                                   |
 | -h,--help           | Prints program usage                                                                                  |
 
-##Examples
+## Examples
 
 ```
 isbn -c 978034533970
@@ -118,9 +118,6 @@ isbn -e 9780345339706
 Generated barcode 9780345339706.png
 ```
 
-##Additional Information
+## Additional Information
 
 Read the Wikipedia article on [ISBNs](http://en.wikipedia.org/wiki/International_Standard_Book_Number) for more information about validation and calculating check digits
-
-##Acknowledgements
-
